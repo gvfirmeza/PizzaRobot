@@ -109,7 +109,7 @@
   }
   
   .rodape__lista {
-    padding-right: 1em;
+    padding-right: 8.7em;
     padding-top: 0.8em;
     padding-bottom: 1.8em;
     list-style: none;
@@ -122,12 +122,18 @@
   }
   
   .rodape__texto {
-    padding-right: 1em;
+    padding-right: 9.2em;
     padding-top: 1.5em;
     font-size: 19px;
     font-weight: 400;
     color: var(--txt-color);
     text-align: center; 
   }
-  
-  
+   
+  .info__img {
+    margin: 0;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    display: block;
+    margin: auto;
+  }
