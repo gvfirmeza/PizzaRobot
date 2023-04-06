@@ -91,4 +91,14 @@
 
 .rodape {
     background-color: var(--sec-color);
+    display: flex;
+}
+
+.rodape__logo {
+    align-items: center;
+    padding: 0.5em;
+}
+
+.rodape__lista {
+    list-style: none;
 }
