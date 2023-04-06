@@ -5,6 +5,7 @@
   --txt-hover-color: yellow;
   --sec-color: rgb(167,65,58);
   --terc-color: rgb(0,0,0);
+  --font-prim: sans-serif;
 }
 
 * {
@@ -17,6 +18,7 @@
     color: var(--txt-color);
     width: 100%;
     z-index: 1;
+    font-family: var(--font-prim);
 }
 
 .cabecalho__div {
@@ -91,14 +93,41 @@
 
 .rodape {
     background-color: var(--sec-color);
+    text-align: center; 
+    font-family: var(--font-prim);
+  }
+  
+  .rodape__conteudo {
     display: flex;
-}
-
-.rodape__logo {
+    flex-direction: column;
     align-items: center;
+  }
+  
+  .rodape__logo {
     padding: 0.5em;
-}
-
-.rodape__lista {
+    float: left;
+  }
+  
+  .rodape__lista {
+    padding-right: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 1.8em;
     list-style: none;
-}
+    display: flex; 
+    justify-content: center;
+  }
+
+  .rodape__lista_items {
+    padding-right: 0.8em;
+  }
+  
+  .rodape__texto {
+    padding-right: 1em;
+    padding-top: 1.5em;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--txt-color);
+    text-align: center; 
+  }
+  
+  
