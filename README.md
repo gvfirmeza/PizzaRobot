@@ -1,4 +1,4 @@
-# PizzaRobot
+# Pizza Robot
 Projeto feito para trazer vida ao wireframe do site Pizza Robot, que foi criado na aula de design do curso de Full Stack da IBMEC.
 
 # Observações
